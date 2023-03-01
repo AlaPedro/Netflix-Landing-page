@@ -1,0 +1,54 @@
+.select-group{
+    position: relative;
+    display: inline-block;
+
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
+
+.select-group select{
+    width: 118px;
+    height: 36px;
+
+    border: 1px solid rgba (255, 255, 255, 0.6);
+    border-radius: 2px;
+    background:transparent;
+    color: #fff;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+
+    appearance: none;
+
+    text-align-last: center;
+}
+
+.select-group select option {
+    color: #000;
+}
+
+.select-group img {
+    position: absolute;
+}
+
+.select-group img.globe {
+    height: 12px;
+    width: 12px;
+
+    top: 12px;
+    left: 9px;
+}
+
+.select-group img.down {
+    height: 12px;
+    width: 12px;
+
+    top: 12px;
+    right: 9px;
+}
+
+.select-group select:focus{
+    outline: 2px solid #3c9df7;
+}
